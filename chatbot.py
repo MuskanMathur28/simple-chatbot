@@ -3,7 +3,7 @@ from tkinter import scrolledtext
 import google.generativeai as genai
 
 # Configure the generative AI
-genai.configure(api_key="AIzaSyBjiicw-mfa4DtGyznlyQkTH3B19DQhvlQ")
+#genai.configure(api_key="AIzaSyBjiicw-mfa4DtGyznlyQkTH3B19DQhvlQ")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # Define a custom introduction for the bot
